@@ -1,0 +1,40 @@
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border-bottom: 1px solid black;
+    padding-left: 50px;
+    text-align: center;
+}
+tr:hover{
+    background-color: aqua;
+}
+tr:nth-child(even){
+    background-color: turquoise;
+}
+body{
+    background-image: url("images/robbie-lens.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    outline-color: red;         
+}
+ 
+#dekuimg{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px 2px 5px;
+    background-color: aqua;
+}
+#listderoulante{
+    display: none;
+    background-color: rgba(200, 100, 50, 0.5);
+    box-shadow: 20px;
+}
+
+#moi:hover #listderoulante{
+    display: block;
+}
