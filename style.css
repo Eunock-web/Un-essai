@@ -13,11 +13,12 @@ tr:nth-child(even){
     background-color: turquoise;
 }
 body{
-    background-image: url("images/robbie-lens.png");
+    background-image: url("images/yuta.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    outline-color: red;         
+    outline-color: red; 
+    color: white;        
 }
  
 #dekuimg{
